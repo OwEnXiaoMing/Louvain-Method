@@ -87,7 +87,7 @@ def cut_the_size(matrix,be_added,comunity_number):
     matrix[be_added] = 0
     matrix[:, be_added] = 0
     return matrix
-#此函数有问题
+
 #重命名快捷方式shift+f6
 def zerolize_the_be_visited(matrix,begin,be_add):#将出发节点的下一个加入出发节点的社区,be_add为零
     matrix[:,be_add]=matrix[:,begin]+matrix[:,be_add]
