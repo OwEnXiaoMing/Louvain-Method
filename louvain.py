@@ -1,6 +1,8 @@
 import numpy as np
 import networkx as nx
 
+__author__ = 'xzhang'
+
 def modularity(matrix):
     m = np.sum(matrix)
     if m==0:
