@@ -7,7 +7,7 @@ To use this algorithm, please download all the required files. Enter your graph 
 
 For the visualization aspect, you will need to install the networkx library.
 
-# Methode-de-Louvain
+# Methode de Louvain
 Ceci est un projet que j'ai développé lors de mon stage de recherche à l'École Centrale de Marseille. Il consiste à interpréter la méthode Louvain et à visualiser ses résultats en utilisant Python. Vous avez la possibilité d'implémenter votre propre graphe.
 
 Dans mon algorithme, j'utilise la matrice d'adjacence pour calculer la modularité, j'utilise deux dictionnaires pour collecter les résultats de classification et j'utilise finalement matplotlib pour visualiser les résultats.
