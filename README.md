@@ -1,23 +1,15 @@
 # Louvain method
-This is a project I wrote when I was doing alternation of research at École Centrale de Marseille. 
-I thought of a way of interpreting the Louvain Methode and its visualization by python. You can implent a graph as you want.
+This is a project I developed during my research internship at École Centrale de Marseille. It involves interpreting the Louvain Method and visualizing its results using Python. You have the flexibility to implement your own graph.
 
-In my algorithm, I use the adjacency matrix to calculate the modularity, use two dictionaries to collect the classification results, and finally use matplotlib to visualize the results.
+In my algorithm, I utilize the adjacency matrix to calculate modularity and employ two dictionaries to collect the classification results. Finally, I use matplotlib to visualize the outcomes.
 
-The calling method is, please download all the documents, enter your graph into the data.txt , and run it directly in main.py, you can get the visualization result of your graph.
+To use this algorithm, please download all the required files. Enter your graph data into "data.txt" and run "main.py" directly. This will generate a visualization of your graph.
 
-For visualization, we need to install the networkx library.
-
-# Louvain Method
-在我的算法中，我使用邻接矩阵来计算模块化，使用两个字典来收集分类结果，最后使用matplotlib将结果可视化。
-
-调用方法是，请下载所有文档，在data.txt中输入图的边集，然后直接在main.py中运行它，您可以获得查看的结果。
-
-为了可视化，我们需要安装networkx的库。
+For the visualization aspect, you will need to install the networkx library.
 
 # Methode-de-Louvain
-Dans mon algorithme, j'utilise la matrice de contiguïté pour calculer la modularité, j'utilise deux dictionnaires pour collecter les résultats de classification, et enfin j'utilise matplotlib pour visualiser les résultats.
+Ceci est un projet que j'ai développé lors de mon stage de recherche à l'École Centrale de Marseille. Il consiste à interpréter la méthode Louvain et à visualiser ses résultats en utilisant Python. Vous avez la possibilité d'implémenter votre propre graphe.
 
-La méthode d'appel est, s'il vous plaît télécharger tous les documents, entrez votre graphique dans le data.txt et exécutez-le directement dans main.py, vous pouvez obtenir le résultat de la visualisation de votre graphique.
+Dans mon algorithme, j'utilise la matrice d'adjacence pour calculer la modularité, j'utilise deux dictionnaires pour collecter les résultats de classification et j'utilise finalement matplotlib pour visualiser les résultats.
 
-Pour la visualisation, nous devons installer la bibliothèque networkx.
+Pour utiliser cet algorithme, veuillez télécharger tous les fichiers nécessaires. Entrez les données de votre graphe dans "data.txt" et exécutez directement "main.py". Cela générera une visualisation de votre graphe.
